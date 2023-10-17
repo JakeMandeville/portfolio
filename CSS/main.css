@@ -1,0 +1,326 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+nav li {color: white;
+    display: inline-block;
+    height: 3vh;
+    float: none;  
+    margin: 0px 5px;
+  }
+  
+  
+  nav {
+    height: 5vh;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3vh;
+    width: 6vw;
+    padding: 1vh;
+    background-color: grey;
+  }
+  
+  nav a:hover {
+    color: black;
+    background-color: white;
+  }
+
+  
+
+.hero-image{
+    background-image:linear-gradient(rgba(236, 119, 9, 0.75), rgba(0,0,0,1)),url("../images/AdobeStock_126194977.jpeg");
+    height: 40vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: -1;
+}
+.hero-text{
+    color:white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#main{
+    width: 75%;
+    float: left;
+    height: 100%;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.main-articles{
+    background-color: lightgray;
+}
+
+#catleg {
+    height: 25vh;
+}
+
+#side{
+    width: 20%;
+    float: right;
+    height: 100%;
+    padding: 20px
+}
+
+#profile{
+    text-align: center;
+}
+
+#profile-image{
+    width: 50%;
+    border-radius: 50%;
+    border: 5px solid lightgray;
+}
+
+.side-articles ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+DD{
+    text-align: center;
+    margin: 0px
+}
+
+
+
+#profile h2{
+    display:inline;
+}
+
+#profile-details{
+    margin-right: 30px;
+    text-align:center
+}
+
+.side-articles, .main-articles{
+    padding:10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.side-articles{
+    background-color: darkgray;
+    text-align:center;
+}
+
+
+
+
+
+form{
+    margin-top: 20px;
+}
+
+
+textarea, input{
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 75%;
+    border: 1px solid gray;
+}
+
+textarea:focus, input:focus{
+    background-color: white;
+    border: 2px solid black;
+}
+
+textarea {
+    height: 100px;
+}
+
+#sendmessage {
+    background-color: black;
+    color: white;
+}
+#sendmessage:focus {
+    background-color: gray;
+}
+
+.side-articles h1{
+    margin-bottom: 20px;
+}
+
+footer {
+    bottom: 0px;
+    width:100%;
+    background-color: black;
+    height: 5vh;
+    margin-top: 0px;
+}
+
+footer div{
+    text-align: center;
+    color: white;
+}
+
+main{
+    overflow:auto;
+}
+
+footer hr{
+    margin-top: 0px;
+    height: 12px;
+    border: 0px;
+    box-shadow: inset 0px 12px 12px -12px orange
+}
+
+@media screen and (max-width:1214px) {
+ nav{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: space-around;
+ }
+ nav a {
+    width: 11vw;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 11px 15px 6px 5;
+  }
+ nav li{
+    text-align: center;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 20px;
+    width: 12vw;
+ }
+
+ #main{
+    width: 99%;
+    float: left;
+    height: 100%;
+    padding: 0px
+}
+
+#side{
+    width: 99%;
+    float: left;
+    justify-content: space-around;
+    height: 100%;
+    padding: 0px
+}
+
+#catleg{
+    width: 250px;
+}
+
+#profile-image{
+    width: 65%;
+    border-radius: 50%;
+    border: 5px solid lightgrey;
+}
+
+#profile{
+    text-align: center;
+}
+
+.side-articles ul{
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+#profile h2{
+    display:inline;
+}
+
+#profile-details{
+    margin-right: 30px;
+    text-align:center
+}
+
+.side-articles, .main-articles{
+    padding:10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.side-articles{
+    background-color: lightgray;
+    text-align:center;
+}
+
+.main-articles{
+    background-color: lightgray;
+}
+
+
+
+form{
+    margin-top: 20px;
+}
+
+textarea, input{
+    background-color: lightgray;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    width: 75%;
+}
+
+textarea {
+    height: 100px;
+}
+
+.side-articles h1{
+    margin-bottom: 20px;
+}
+
+footer {
+    bottom: 0px;
+    width:100%;
+    background-color: black;
+    height: 5vh;
+    margin-top: 0px;
+}
+
+footer div{
+    text-align: center;
+    color: white;
+}
+
+main{
+    overflow:auto;
+}
+
+footer hr{
+    margin-top: 0px;
+    height: 12px;
+    border: 0px;
+    box-shadow: inset 0px 12px 12px -12px orange
+}
+
+
+}
+
+@media screen and (max-width:383px){
+    nav a{
+        align-items:baseline;
+    }
+}

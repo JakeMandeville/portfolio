@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: black;
+}
+
+nav li {color: white;
+    display: inline-block;
+    height: 3vh;
+    float: none;  
+    margin: 0px 5px;
+  }
+  
+  
+  nav {
+    height: 5vh;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3vh;
+    width: 6vw;
+    padding: 1vh;
+    background-color: grey;
+  }
+  
+  nav a:hover {
+    color: black;
+    background-color: white;
+  }
+  
+
+#alt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 99%;
+    background-color: lightgrey;
+    margin-top: 5vh;
+    border-radius: 10px;
+}
+.main-articles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+main{
+    overflow:auto;
+}
+
+@media screen and (max-width:400px) {
+ nav{
+    width: 100%;
+    height: 40px;
+ }
+ nav a{
+    width: 11vw;
+    text-align: center;
+    display: inline-block;
+    padding: 11px 17px 6px 8px;
+ }
+ nav li{
+    text-align: center;
+    margin-left: 20px;
+    width: 12vw;
+ }
+
+ #alt{
+    margin-top: 100px;
+    width: 75vw;
+    float: left;
+    height: 100%;
+    padding: 20px 20px 25px 20px
+}
+
+footer {
+    bottom: 0px;
+    width:100%;
+    background-color: black;
+    height: 5vh;
+    margin-top: 0px;
+}
+
+footer div{
+    text-align: center;
+    color: white;
+}
+
+main{
+    overflow:auto;
+}
+
+footer hr{
+    margin-top: 0px;
+    height: 12px;
+    border: 0px;
+    box-shadow: inset 0px 12px 12px -12px orange
+}
+
+
+}
