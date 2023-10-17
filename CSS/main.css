@@ -104,7 +104,26 @@ DD{
     margin: 0px
 }
 
-
+.cats{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+.penny{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+}
+.melon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right:20px;
+}
 
 #profile h2{
     display:inline;
